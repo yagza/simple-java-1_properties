@@ -4,8 +4,8 @@ Credentials_for_something: "agaga"
 
 # Здесь перечислим используемые креды:
 Credentials:
-    POSTGRESQL_CREDS
-    FTP_CREDS
+  - POSTGRESQL_CREDS
+  - FTP_CREDS
     
 # Далее опять не креды
 pso_pso_pso: "koto-koto-koto"
