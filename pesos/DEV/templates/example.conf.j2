@@ -7,5 +7,16 @@
 hosts={{ HOSTS_TO_RESOLVE }}
 
 # Секретные секреты
+{% if DB_USERNAME is defined %}
 Username={{ DB_USERNAME }}
+{% endif %}
+{% if DB_PASSWORD is defined %}
 pASSword={{ DB_PASSWORD }}
+{% endif %}
+
+{% if FTP_USERNAME is defined %}
+Username={{ FTP_USERNAME }}
+{% endif %}
+{% if FTP_PASSWORD is defined %}
+pASSword={{ FTP_PASSWORD }}
+{% endif %}
