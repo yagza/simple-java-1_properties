@@ -7,11 +7,11 @@
 hosts={{ HOSTS_TO_RESOLVE }}
 
 # Секретные секреты
-{% if DB_USERNAME is defined %}
-Username={{ DB_USERNAME }}
+{% if POSTGRES_USERNAME is defined %}
+Username={{ POSTGRES_USERNAME }}
 {% endif %}
-{% if DB_PASSWORD is defined %}
-pASSword={{ DB_PASSWORD }}
+{% if POSTGRES_PASSWORD is defined %}
+pASSword={{ POSTGRES_PASSWORD }}
 {% endif %}
 
 {% if FTP_USERNAME is defined %}
