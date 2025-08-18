@@ -5,3 +5,11 @@
 {{ host_specific_setting }}
 
 hosts={{ HOSTS_TO_RESOLVE }}
+
+# Другие секретные секреты (ваще секретные!)
+{% if DATABASE_USERNAME is defined %}
+Username={{ DATABASE_USERNAME }}
+{% endif %}
+{% if DATABASE_PASSWORD is defined %}
+pASSword={{ DATABASE_PASSWORD }}
+{% endif %}
