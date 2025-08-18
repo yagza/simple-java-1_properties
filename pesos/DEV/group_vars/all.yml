@@ -1,1 +1,7 @@
 common_setting: "Это общая настройка для всех хостов"
+
+# Здесь перечислим используемые креды:
+Credentials:
+    POSTGRESQL_CREDS
+    FTP_CREDS
+    SOME_OTHER_CREDS
