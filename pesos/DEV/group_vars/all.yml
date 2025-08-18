@@ -1,7 +1,12 @@
 common_setting: "Это общая настройка для всех хостов"
 
+Credentials_for_something: "agaga"
+
 # Здесь перечислим используемые креды:
 Credentials:
     POSTGRESQL_CREDS
     FTP_CREDS
     SOME_OTHER_CREDS
+
+# Далее опять не креды
+pso_pso_pso: "koto-koto-koto"
