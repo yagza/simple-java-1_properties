@@ -8,15 +8,15 @@ hosts={{ HOSTS_TO_RESOLVE }}
 
 # Секретные секреты
 {% if POSTGRESQL_USERNAME is defined %}
-Username={{ POSTGRESQL_USERNAME }}
+Username_1={{ POSTGRESQL_USERNAME }}
 {% endif %}
 {% if POSTGRESQL_PASSWORD is defined %}
-pASSword={{ POSTGRESQL_PASSWORD }}
+pASSword_1={{ POSTGRESQL_PASSWORD }}
 {% endif %}
 
 {% if FTP_USERNAME is defined %}
-Username={{ FTP_USERNAME }}
+Username_2={{ FTP_USERNAME }}
 {% endif %}
 {% if FTP_PASSWORD is defined %}
-pASSword={{ FTP_PASSWORD }}
+pASSword_2={{ FTP_PASSWORD }}
 {% endif %}
