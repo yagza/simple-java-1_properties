@@ -1,1 +1,4 @@
 common_setting: "Это общая настройка для всех хостов"
+
+Credentials:
+  - DATABASE_CREDS
